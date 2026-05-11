@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 文章集萃 — 伦理 · 艺术 · 技术伦理 · 行业快讯</title>
+  <meta name="description" content="人工智能重要文章收集平台 — 四大模块：伦理 Ethics · 艺术 Art · 技术伦理 Tech Ethics · 行业快讯 Industry News">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ✦ Progress Bar -->
+  <div id="progress-bar"><div id="progress-fill"></div></div>
+
+  <!-- ✦ Nav -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-icon">◆</span>
+        <span class="logo-text">AI 集萃</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#ethics" class="active">伦理</a>
+        <a href="#art">艺术</a>
+        <a href="#tech-ethics">技术伦理</a>
+        <a href="#industry">行业快讯</a>
+        <a href="#about">关于</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ✦ Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" id="heroBg"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="title-line" data-stagger>人工智能</span>
+        <span class="title-line accent" data-stagger>文章集萃</span>
+      </h1>
+      <p class="hero-subtitle" data-reveal>在信息洪流中，甄别真正值得阅读的 AI 思想</p>
+      <div class="hero-tags" data-reveal>
+        <span class="hero-tag" style="--tag-clr: var(--cyan)">伦理</span>
+        <span class="hero-tag" style="--tag-clr: var(--purple)">艺术</span>
+        <span class="hero-tag" style="--tag-clr: var(--teal)">技术伦理</span>
+        <span class="hero-tag" style="--tag-clr: var(--amber)">行业快讯</span>
+      </div>
+      <div class="hero-stats" data-reveal>
+        <div class="stat-item">
+          <span class="stat-num" data-count="0">0</span>
+          <span class="stat-label">篇文章</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">4</span>
+          <span class="stat-label">大模块</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">∞</span>
+          <span class="stat-label">持续更新</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator" data-reveal>
+      <span>向下探索</span>
+      <div class="scroll-arrow">↓</div>
+    </div>
+  </section>
+
+  <!-- ✦ Ethics -->
+  <section id="ethics" class="module-section">
+    <div class="module-inner">
+      <div class="module-header" data-reveal>
+        <span class="module-tag" style="--tag-color: var(--cyan)">01</span>
+        <h2>伦理 Ethics</h2>
+        <div class="divider" style="--divider-clr: var(--cyan)"></div>
+        <p class="module-desc">AI 伦理讨论 — 公平、偏见、隐私、责任与人类社会价值对齐</p>
+      </div>
+
+      <div class="module-intro" data-reveal>
+        <p>随着 AI 系统逐步嵌入社会核心决策，<strong>算法公平性</strong>、<strong>数据隐私</strong>、<strong>责任归属</strong> 等伦理议题不再是学术圈的自留地，而是关乎每一个人的现实挑战。本模块收集关于 AI 伦理的核心文章与深度分析。</p>
+      </div>
+
+      <div class="article-list" data-reveal>
+        <div class="article-item">
+          <span class="article-status pending">待收录</span>
+          <div class="article-info">
+            <h4>即将收录</h4>
+            <p>本模块正在建设中，欢迎贡献优质文章</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="topic-grid" data-reveal>
+        <div class="topic-card">
+          <div class="topic-icon">⚖️</div>
+          <h4>算法公平</h4>
+          <p>偏见检测、公平性指标、去偏技术</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">🔒</div>
+          <h4>数据隐私</h4>
+          <p>差分隐私、联邦学习、数据权利</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">🎯</div>
+          <h4>AI 对齐</h4>
+          <p>价值对齐、可控性、安全边界</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">🌍</div>
+          <h4>社会影响</h4>
+          <p>就业、不平等、全球治理</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✦ Art -->
+  <section id="art" class="module-section alt">
+    <div class="module-inner">
+      <div class="module-header" data-reveal>
+        <span class="module-tag" style="--tag-color: var(--purple)">02</span>
+        <h2>艺术 Art</h2>
+        <div class="divider" style="--divider-clr: var(--purple)"></div>
+        <p class="module-desc">AI 与艺术的交汇 — 生成式创作、人机协作、美学变革</p>
+      </div>
+
+      <div class="module-intro" data-reveal>
+        <p>从 Midjourney 到 Sora，从 AI 作曲到互动装置，<strong>生成式 AI</strong> 正在重新定义"创作"的边界。本模块收集关于 AI 艺术创作、美学理论、版权争议的前沿文章与深度评论。</p>
+      </div>
+
+      <div class="article-list" data-reveal>
+        <div class="article-item">
+          <span class="article-status pending">待收录</span>
+          <div class="article-info">
+            <h4>即将收录</h4>
+            <p>本模块正在建设中，欢迎贡献优质文章</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="topic-grid" data-reveal>
+        <div class="topic-card">
+          <div class="topic-icon">🎨</div>
+          <h4>视觉艺术</h4>
+          <p>AI 绘画、图像生成、风格迁移</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">🎵</div>
+          <h4>音乐生成</h4>
+          <p>AI 作曲、声音合成、音乐交互</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">📝</div>
+          <h4>文学创作</h4>
+          <p>AI 写作、叙事生成、诗歌</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">⚖️</div>
+          <h4>版权与原创</h4>
+          <p>AI 版权、署名权、创作伦理</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✦ Tech Ethics -->
+  <section id="tech-ethics" class="module-section">
+    <div class="module-inner">
+      <div class="module-header" data-reveal>
+        <span class="module-tag" style="--tag-color: var(--teal)">03</span>
+        <h2>技术伦理 Tech Ethics</h2>
+        <div class="divider" style="--divider-clr: var(--teal)"></div>
+        <p class="module-desc">技术层面的伦理考量 — 安全、对齐、可解释性、鲁棒性</p>
+      </div>
+
+      <div class="module-intro" data-reveal>
+        <p>AI 安全研究正在从学术前沿走向行业实践。<strong>可解释性</strong>、<strong>红队测试</strong>、<strong>越狱防御</strong>、<strong>模型对齐</strong> —— 这些技术层面的伦理保障，决定了 AI 系统能否被安全地部署在真实世界中。</p>
+      </div>
+
+      <div class="article-list" data-reveal>
+        <div class="article-item">
+          <span class="article-status pending">待收录</span>
+          <div class="article-info">
+            <h4>即将收录</h4>
+            <p>本模块正在建设中，欢迎贡献优质文章</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="topic-grid" data-reveal>
+        <div class="topic-card">
+          <div class="topic-icon">🛡️</div>
+          <h4>AI 安全</h4>
+          <p>红队测试、越狱防御、威胁建模</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">🔍</div>
+          <h4>可解释性</h4>
+          <p>机制可解释性、特征可视化、归因</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">📊</div>
+          <h4>评估基准</h4>
+          <p>安全评估、能力测试、红队框架</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">🧪</div>
+          <h4>对齐研究</h4>
+          <p>RLHF、DPO、奖励建模、超对齐</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✦ Industry -->
+  <section id="industry" class="module-section alt">
+    <div class="module-inner">
+      <div class="module-header" data-reveal>
+        <span class="module-tag" style="--tag-color: var(--amber)">04</span>
+        <h2>行业快讯 Industry</h2>
+        <div class="divider" style="--divider-clr: var(--amber)"></div>
+        <p class="module-desc">AI 产业动态 — 最新发布、融资、政策、趋势解读</p>
+      </div>
+
+      <div class="module-intro" data-reveal>
+        <p>AI 产业以周为单位在演进。新模型的发布、监管政策的出台、创业公司的融资、巨头的战略调整 —— 本模块快速捕捉 <strong>行业关键事件</strong>，精选深度分析与解读。</p>
+      </div>
+
+      <div class="news-feed" data-reveal>
+        <div class="news-item coming-soon">
+          <div class="news-dot"></div>
+          <div class="news-content">
+            <span class="news-date">即将上线</span>
+            <h4>快讯模块火热建设中</h4>
+            <p>将收录最新 AI 行业动态、模型发布、政策新闻与深度分析</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="topic-grid" data-reveal>
+        <div class="topic-card">
+          <div class="topic-icon">🏢</div>
+          <h4>巨头动态</h4>
+          <p>OpenAI、Google、Meta、Anthropic 等</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">📜</div>
+          <h4>政策法规</h4>
+          <p>AI 法案、监管框架、国际治理</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">💰</div>
+          <h4>融资投资</h4>
+          <p>创投动态、估值变化、市场趋势</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon">🚀</div>
+          <h4>产品发布</h4>
+          <p>新模型、新工具、新平台上线</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✦ About -->
+  <section id="about" class="about-section">
+    <div class="module-inner">
+      <div class="module-header" data-reveal>
+        <span class="module-tag" style="--tag-color: var(--text-dim)">✦</span>
+        <h2>关于本项目</h2>
+        <div class="divider" style="--divider-clr: var(--text-dim)"></div>
+      </div>
+
+      <div class="about-content" data-reveal>
+        <div class="about-card">
+          <h4>📖 项目简介</h4>
+          <p><strong>AI 文章集萃</strong> 是一个开放的 AI 重要文章收集项目。在 AI 信息爆炸的时代，我们甄选真正有深度、有洞见的内容，按主题模块整理，方便读者系统性地跟进 AI 领域的关键思想。</p>
+        </div>
+        <div class="about-card">
+          <h4>🎯 目标</h4>
+          <p>建立一个高质量、可信赖的 AI 阅读索引，覆盖 <strong>伦理 · 艺术 · 技术伦理 · 行业快讯</strong> 四个核心维度，帮助读者在信息洪流中找到真正值得阅读的内容。</p>
+        </div>
+        <div class="about-card">
+          <h4>🤝 贡献</h4>
+          <p>欢迎通过 GitHub 提交 Issue 或 Pull Request 推荐优质文章。每篇文章需附上原文链接、摘要、推荐理由。</p>
+        </div>
+        <div class="about-card">
+          <h4>📂 文章索引</h4>
+          <p>完整文章列表请查看：</p>
+          <ul class="about-links">
+            <li><a href="articles/ethics.md" target="_blank">伦理 · 文章索引 →</a></li>
+            <li><a href="articles/art.md" target="_blank">艺术 · 文章索引 →</a></li>
+            <li><a href="articles/tech-ethics.md" target="_blank">技术伦理 · 文章索引 →</a></li>
+            <li><a href="articles/industry-news.md" target="_blank">行业快讯 · 文章索引 →</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✦ Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-icon">◆</span>
+        <span>AI 文章集萃</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/Ivy-Piggy/ai-articles" target="_blank" rel="nofollow">GitHub</a>
+        <a href="https://github.com/Ivy-Piggy/ai-articles/issues" target="_blank" rel="nofollow">提交文章</a>
+      </div>
+      <p class="footer-copy">开放收集 · 持续更新 · 知识共享</p>
+    </div>
+  </footer>
+
+  <!-- ✦ Back to Top -->
+  <button id="backToTop" class="back-to-top" aria-label="返回顶部">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
