@@ -40,6 +40,28 @@
 
 ---
 
+#### 📄 2. 阿里巴巴 Pixelle-Video：AI 视频进入"逐帧美学"时代
+
+| 字段 | 内容 |
+|------|------|
+| **标题** | 视频创作进入"逐帧美学"时代！阿里巴巴 Pixelle-Video 惊艳亮相，让 AI 视频告别"一眼假"！ |
+| **来源** | 青瓜王子 (微信公众号) |
+| **日期** | 2026-05-03 |
+| **代码** | [github.com/aidc-ai/pixelle-video](https://github.com/aidc-ai/pixelle-video) |
+| **模块** | 🎨 视觉艺术 → AI 视频生成 / 图像引导视频 |
+| **推荐理由** | 阿里巴巴 AIDC-AI 实验室开源的 Pixelle-Video，基于 SVD 架构深度定制，通过动态自适应注意力机制和图像引导逻辑，解决了 AI 视频生成中细节丢失、运动伪影、可控性差三大痛点。推理效率相比同类模型优化约 25%。 |
+
+**原文摘要：** 阿里 AIDC-AI 实验室开源的图像引导视频生成项目 Pixelle-Video，改变了 AI "看"世界的方式。它不再单纯依赖文字描述，而是将图像的高级语义与视频的时空连贯性深度融合，实现"极致的图像保真度"。当输入一张高精度照片时，生成的视频中细节（如旗袍盘扣、刺绣）在动态中依然清晰可见。同时支持对"电影感光效"、"慢动作捕捉"等高级提示词的精准响应。
+
+**完整文章：** [articles/art/pixelle-video.md](art/pixelle-video.md)
+
+**相关链接：**
+- [微信公众号原文](https://mp.weixin.qq.com/s/9lKGdCfRsAYfNn6xKrb3Ww)
+- GitHub (pixelle-video): [https://github.com/aidc-ai/pixelle-video](https://github.com/aidc-ai/pixelle-video)
+- GitHub (ComfyUI Copilot): [https://github.com/AIDC-AI/ComfyUI-Copilot](https://github.com/AIDC-AI/ComfyUI-Copilot)
+
+---
+
 ### 待收录推荐方向
 
 > 📝 以下为尚未收录的推荐方向，欢迎通过 GitHub Issues 补充完整文章信息。
