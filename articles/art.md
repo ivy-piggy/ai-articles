@@ -62,6 +62,134 @@
 
 ---
 
+---
+
+#### 📄 3. OpenAI Sora 2：音画同步的视频生成新纪元
+
+| 字段 | 内容 |
+|------|------|
+| **标题** | OpenAI 深夜炸场：家族最强视频生成模型 Sora 2 发布，还能同步生成音频 |
+| **来源** | IT之家 / OpenAI |
+| **日期** | 2025-10-01 |
+| **论文/产品** | [Sora 2 官方页](https://openai.com/index/sora-2/) |
+| **模块** | 🎨 视觉艺术 → AI 视频生成 / 影视创作 |
+| **推荐理由** | OpenAI 发布 Sora 2，首次新增同步音频生成能力，视频物理效果大幅提升，并推出 iOS 应用。标志着 AI 视频从"默片"进入"有声电影"时代。 |
+
+**原文摘要：** OpenAI 发布下一代视频生成模型 Sora 2，相比初代在物理规律模拟、音频同步和可控性方面取得断层式进步。Sora 2 能同步生成语音，所有视频带有水印和元数据标识。OpenAI 将 Sora 2 描述为通往更强大 AI 系统和通用世界模拟器的重要一步。
+
+**完整文章：** [articles/art/sora-2-release.md](art/sora-2-release.md)
+
+**相关链接：**
+- [IT之家报道](https://www.ithome.com/0/887/039.htm)
+- [搜狐报道](https://www.sohu.com/a/941420709_121124773)
+
+---
+
+#### 📄 4. Runway Gen-4：一致性突破的AI视频生成模型
+
+| 字段 | 内容 |
+|------|------|
+| **标题** | Runway Gen-4: AI Video Generation with World Consistency |
+| **来源** | Runway / TechCrunch |
+| **日期** | 2025-03-31 |
+| **论文/产品** | [Runway Gen-4 官方](https://runwayml.com/research/introducing-runway-gen-4) |
+| **模块** | 🎨 视觉艺术 → AI 视频生成 / 电影叙事 |
+| **推荐理由** | Runway 发布 Gen-4，主打"世界一致性"和"角色一致性"，解决AI视频长期存在的跨镜头角色不稳定问题。多家好莱坞制片厂已开始试用，被视为AI视频从单镜头向多镜头叙事的跨越。 |
+
+**原文摘要：** Gen-4 支持角色在不同场景、不同镜头中保持外貌、服装统一，场景物体和环境在镜头间保持一致。改进的物理模拟使动作交互更自然。Runway 已与多家好莱坞制片厂合作，应用于前期制作和概念可视化。
+
+**完整文章：** [articles/art/runway-gen4.md](art/runway-gen4.md)
+
+**相关链接：**
+- [Runway 官方](https://runwayml.com/research/introducing-runway-gen-4)
+- [TechCrunch](https://techcrunch.com/2025/03/31/runway-releases-an-impressive-new-video-generating-ai-model/)
+
+---
+
+#### 📄 5. Google Veo 3：谷歌最强AI视频生成模型
+
+| 字段 | 内容 |
+|------|------|
+| **标题** | Veo 3：拥有逼真音效的 AI 视频生成，Google 最先进的视频生成技术 |
+| **来源** | Google DeepMind |
+| **日期** | 2025年5月 (Google I/O) |
+| **论文/产品** | [Google Veo 官方页](https://deepmind.google/models/veo/) |
+| **模块** | 🎨 视觉艺术 → AI 视频生成 / 影视创作 |
+| **推荐理由** | Google DeepMind 发布 Veo 3，首次实现视频与音频同步生成，支持 4K 分辨率输出。全新时空联合注意力架构大幅提升了动作流畅度和物理真实感，被业界视为 AI 影视化的里程碑产品。 |
+
+**原文摘要：** Veo 3 实现了从视频内容到音频的同步生成——对话、音效、环境声一体合成。支持 4K 输出和可配置画面比例。后续推出 Veo 3.1，支持横屏/竖屏输出，成为 AI Studio 平台的核心模型。
+
+**完整文章：** [articles/art/veo3-google.md](art/veo3-google.md)
+
+**相关链接：**
+- [Google DeepMind Veo](https://deepmind.google/models/veo/)
+- [Google AI Studio - Veo 3](https://aistudio.google.com/models/veo-3)
+
+---
+
+#### 📄 6. Kling 3.0（可灵）：快手全模态AI视频引擎
+
+| 字段 | 内容 |
+|------|------|
+| **标题** | 可灵3.0 Kling AI - 智能分镜、音画同步、15秒超长视频生成 |
+| **来源** | 快手 / 可灵官方 |
+| **日期** | 2026 |
+| **论文/产品** | [Kling 3.0 官方](https://kling3.io/zh/features) |
+| **模块** | 🎨 视觉艺术 → AI 视频生成 / 影视创作 |
+| **推荐理由** | 快手可灵3.0 由 Omni One 统一架构驱动，支持物理精确生成、原生音频同步、4K 输出和导演级运镜控制。在第三方评测中多项指标位居前列，是国产 AI 视频模型的代表。 |
+
+**原文摘要：** Kling 3.0 号称"全球首个统一多模态 AI 视频引擎"，支持文生视频、图生视频、音频生成的多模态融合。内置智能分镜系统，支持15秒超长视频和角色定向驱动。
+
+**完整文章：** [articles/art/kling3.md](art/kling3.md)
+
+**相关链接：**
+- [Kling 3.0 官方](https://kling3.io/zh/features)
+- [可灵 3.0 全模态引擎](https://app.klingai.aigc.cn/)
+
+---
+
+#### 📄 7. 阿里 Pixelle-Video：开源AI全自动短视频引擎
+
+| 字段 | 内容 |
+|------|------|
+| **标题** | 阿里开源 AI 全自动短视频引擎 · 一句话生成完整视频 |
+| **来源** | 阿里巴巴 AIDC-AI / GitHub |
+| **日期** | 2025年11月 |
+| **论文/产品** | [GitHub - Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video) |
+| **模块** | 🎨 视觉艺术 → AI 视频生成 / 自动化创作 |
+| **推荐理由** | 阿里 AIDC-AI 开源的全自动短视频引擎，基于 ComfyUI 架构，从主题输入到成片（文案→配图→配音→配乐→合成）全自动完成。上线半年获近 9000 Star，Apache 2.0 开源。 |
+
+**原文摘要：** Pixelle-Video 只需输入一个主题，即可自动完成文案撰写、AI配图/视频生成、语音解说合成、背景音乐添加和视频合成的全流程。采用模块化设计，支持电影感提示词。
+
+**完整文章：** [articles/art/pixelle-video-2.md](art/pixelle-video-2.md)
+
+**相关链接：**
+- [GitHub 仓库](https://github.com/AIDC-AI/Pixelle-Video)
+- [知乎深度解析](https://zhuanlan.zhihu.com/p/2036456913035057115)
+
+---
+
+#### 📄 8. 腾讯混元 HunyuanVideo：开源轻量级视频生成模型
+
+| 字段 | 内容 |
+|------|------|
+| **标题** | 腾讯混元发布并开源 HunyuanVideo 1.5，元宝上线生视频能力 |
+| **来源** | 腾讯混元大模型 |
+| **日期** | 2025-11-21 |
+| **论文/产品** | [HunyuanVideo 官网](https://hunyuan.tencent.com/video/zh) / [GitHub](https://github.com/Tencent-Hunyuan/HunyuanVideo) |
+| **模块** | 🎨 视觉艺术 → AI 视频生成 / 开源生态 |
+| **推荐理由** | 腾讯混元开源 HunyuanVideo 1.5，仅 8.3B 参数即可在消费级显卡上运行，实现顶尖视频生成质量。团队 CVPR 2026 入选 25 篇论文，是目前最优秀的开源视频生成模型之一。 |
+
+**原文摘要：** 基于 DiT 架构的轻量级视频生成模型，采用 Full Attention 机制统一图像和视频生成。支持 5-10 秒视频生成，"双流到单流"混合设计提升跨模态理解能力。
+
+**完整文章：** [articles/art/hunyuan-video.md](art/hunyuan-video.md)
+
+**相关链接：**
+- [腾讯混元视频官网](https://hunyuan.tencent.com/video/zh)
+- [GitHub 开源](https://github.com/Tencent-Hunyuan/HunyuanVideo)
+
+---
+
 ### 待收录推荐方向
 
 > 📝 以下为尚未收录的推荐方向，欢迎通过 GitHub Issues 补充完整文章信息。
