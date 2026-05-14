@@ -190,6 +190,31 @@
 
 ---
 
+---
+
+#### 📄 9. PAE：Prior-Aligned Autoencoders — 重塑"扩散友好"潜空间
+
+| 字段 | 内容 |
+|------|------|
+| **标题** | 重建好≠生成好？PAE重塑Latent Manifold，揭秘"扩散友好"潜空间 |
+| **来源** | 机智流 (微信公众号) |
+| **日期** | 2026-05 |
+| **论文** | [HuggingFace Papers](https://huggingface.co/papers/2605.07915) |
+| **代码** | [github.com/ZhengrongYue/PAE](https://github.com/ZhengrongYue/PAE) |
+| **模块** | 🎨 视觉艺术 → AI 生成 / 潜空间优化 |
+| **推荐理由** | 上海交大与阿里联合研究，从流形几何视角首次定义"扩散友好"潜空间，通过视觉基础模型先验对齐，显式塑造潜空间结构。在 ImageNet 256×256 上以 LightningDiT-XL/1 达 gFID 1.03 新 SOTA，训练效率提升 13 倍，少步采样 45 步达巅峰性能。挑战了"重建质量=生成质量"的传统认知。 |
+
+**原文摘要：** 传统 VAE 以像素级重建 fidelity 为核心目标，但高重建质量不等同于高生成效率。PAE 从潜空间流形几何视角出发，引入三大正则化（SSR、MCR、SCR）显式塑造空间结构、流形连续性和语义组织性，使扩散模型在极少数训练步数下达到最优生成效果。
+
+**完整文章：** [articles/art/pae-prior-aligned-autoencoders.md](art/pae-prior-aligned-autoencoders.md)
+
+**相关链接：**
+- [微信公众号原文](https://mp.weixin.qq.com/s/BWwoFbnyPcnqr22u7qK0_g)
+- [论文主页](https://zhengrongyue.github.io/pae.github.io/)
+- [GitHub 仓库](https://github.com/ZhengrongYue/PAE)
+
+---
+
 ### 待收录推荐方向
 
 > 📝 以下为尚未收录的推荐方向，欢迎通过 GitHub Issues 补充完整文章信息。
