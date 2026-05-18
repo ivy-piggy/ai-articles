@@ -231,6 +231,134 @@
 
 ---
 
+---
+
+#### 📄 11. StyleTextGen: 风格条件的多语言场景文字生成 (CVPR 2026)
+
+| 字段 | 内容 |
+|------|------|
+| **标题** | StyleTextGen: Style-Conditioned Multilingual Scene Text Generation |
+| **作者** | Zeyu Chen, Fangmin Zhao, Yan Shu, Yichao Liu, Liu Yu, Yu Zhou |
+| **来源** | **CVPR 2026** (顶级计算机视觉会议) |
+| **日期** | 2026-05-14 |
+| **论文** | [arXiv:2605.14708](https://arxiv.org/abs/2605.14708) |
+| **模块** | 🎨 视觉艺术 → 风格迁移 / 字体艺术 |
+| **推荐理由** | CVPR 2026 接收论文。首次系统性地解决多语言场景下的风格化文字生成问题。提出双分支风格编码器、文字风格一致性损失和掩码引导推理策略三大创新，在多语言风格条件文字生成中确立新 SOTA。对 AI 辅助字体设计和品牌视觉系统的跨语言风格统一有重要价值。 |
+
+**原文摘要：** StyleTextGen 框架学习感知和复制不同语言和书写系统中的视觉文字风格。双分支风格编码器专门用于风格建模，文字风格一致性损失增强风格连贯性，掩码引导推理策略确保精确风格对齐。团队还构建了 StyleText-CE 双语场景文字风格基准测试集。
+
+**完整文章：** [articles/art/styletextgen-cvpr2026.md](art/styletextgen-cvpr2026.md)
+
+**相关链接：**
+- arXiv: [https://arxiv.org/abs/2605.14708](https://arxiv.org/abs/2605.14708)
+
+---
+
+#### 📄 12. R-DMesh: 视频引导的3D动画 — 修正动态网格流 (SIGGRAPH 2026)
+
+| 字段 | 内容 |
+|------|------|
+| **标题** | R-DMesh: Video-Guided 3D Animation via Rectified Dynamic Mesh Flow |
+| **作者** | Zijie Wu, Lixin Xu, Puhua Jiang, Sicong Liu, Chunchao Guo, Xiang Bai |
+| **来源** | **SIGGRAPH 2026** (顶级计算机图形学会议) |
+| **日期** | 2026-05-13 |
+| **论文** | [arXiv:2605.13838](https://arxiv.org/abs/2605.13838) |
+| **模块** | 🎨 视觉艺术 → 3D 内容创作 / 动画生成 |
+| **推荐理由** | SIGGRAPH 2026 接收论文。首次解决视频引导 3D 动画中的姿态不对齐问题。提出 R-DMesh 框架，通过 VAE 解耦架构 + Triflow Attention + 修正流扩散 Transformer 生成高保真 4D 网格。构建了 50 万+动态网格序列的 Video-RDMesh 数据集。极大简化从静态模型到动态动画的制作流程。 |
+
+**原文摘要：** 提出修正动态网格 R-DMesh 统一框架，通过新型 VAE 将输入解耦为基础网格、运动轨迹和修正跳跃偏移量，利用 Triflow Attention 保持物理一致性和局部刚性，基于修正流扩散 Transformer 将 2D 视频时空先验迁移到 3D 域。
+
+**完整文章：** [articles/art/rdmesh-siggraph2026.md](art/rdmesh-siggraph2026.md)
+
+**相关链接：**
+- arXiv: [https://arxiv.org/abs/2605.13838](https://arxiv.org/abs/2605.13838)
+
+---
+
+#### 📄 13. AI 在个性化图像美学评估中超越人类
+
+| 字段 | 内容 |
+|------|------|
+| **标题** | AI Outperforms Humans in Personalized Image Aesthetics Assessment via LLM-Based Interviews and Semantic Feature Extraction |
+| **作者** | Yoshia Abe, Tatsuya Daikoku, Yasuo Kuniyoshi |
+| **来源** | arXiv (cs.AI) |
+| **日期** | 2026-05-14 |
+| **论文** | [arXiv:2605.14761](https://arxiv.org/abs/2605.14761) |
+| **模块** | 🎨 视觉艺术 → 审美评估 / AI 创造力 |
+| **推荐理由** | 颠覆性结论：首次通过实验证明 AI 在预测个人审美偏好上可以超越人类自身。LLM 半结构化访谈 + 深度学习特征提取的集成系统预测误差小于个体内变异性。引发「AI 能否作为比人类自身更深层的人类审美感受力解译者」的重要哲学问题。 |
+
+**原文摘要：** 开发深度学习-LLM 集成系统，通过 LLM 半结构化访谈主动获取审美偏好，利用低层和高层特征预测审美评价。系统优于所有对比方法，预测误差小于个体内变异，表明 AI 比他人甚至个体未来的自我更能捕捉个人审美偏好。
+
+**完整文章：** [articles/art/ai-aesthetics-better-than-humans.md](art/ai-aesthetics-better-than-humans.md)
+
+**相关链接：**
+- arXiv: [https://arxiv.org/abs/2605.14761](https://arxiv.org/abs/2605.14761)
+
+---
+
+#### 📄 14. InsightTok: 提升自回归图像生成中文字和人脸的保真度
+
+| 字段 | 内容 |
+|------|------|
+| **标题** | InsightTok: Improving Text and Face Fidelity in Discrete Tokenization for Autoregressive Image Generation |
+| **作者** | Yang Yue, Fangyun Wei, Tianyu He, Jinjing Zhao, Zanlin Ni, Zeyu Liu, Jiayi Guo, Lei Shi, Yue Dong, Li Chen, Ji Li, Gao Huang, Dong Chen |
+| **来源** | arXiv (cs.CV) |
+| **日期** | 2026-05-14 |
+| **论文** | [arXiv:2605.14333](https://arxiv.org/abs/2605.14333) |
+| **模块** | 🎨 视觉艺术 → 图像生成 / AI 绘画底层架构 |
+| **推荐理由** | 揭示了离散分词器目标与文字可读性/面部保真度之间的对齐差距，提出内容感知局部损失解决方案。仅用 16k 紧凑码本+16 倍降采样率，即在文字和人脸重建上显著超越前人且不牺牲通用质量。对海报文字艺术、AI 肖像画等场景有直接推动。 |
+
+**原文摘要：** InsightTok 通过局部化、内容感知的感知损失增强文字和人脸保真度。在紧凑 16k 码本和 16 倍降采样率下显著优于先前分词器，增益一致迁移到 InsightAR 自回归图像生成模型，生成文字更清晰、面部细节更逼真的图像。
+
+**完整文章：** [articles/art/insighttok-ar-generation.md](art/insighttok-ar-generation.md)
+
+**相关链接：**
+- arXiv: [https://arxiv.org/abs/2605.14333](https://arxiv.org/abs/2605.14333)
+
+---
+
+#### 📄 15. 合成数据能否改善图形设计的层次解构？
+
+| 字段 | 内容 |
+|------|------|
+| **标题** | Does Synthetic Layered Design Data Benefit Layered Design Decomposition? |
+| **作者** | Kam Man Wu, Haolin Yang, Qingyu Chen, Yihu Tang, Jingye Chen, Qifeng Chen |
+| **来源** | arXiv (cs.CV) |
+| **日期** | 2026-05-14 |
+| **论文** | [arXiv:2605.15167](https://arxiv.org/abs/2605.15167) |
+| **模块** | 🎨 视觉艺术 → 平面设计 / 自动化设计编辑 |
+| **推荐理由** | 系统验证纯合成分层数据在图形设计解构中的可行性和优越性。构建 SynLayers 合成数据集，VLM 自动化标注管线。三个关键发现：纯合成数据超越真实数据、5 万样本达到饱和、合成数据可平衡层数分布。为 AI 设计工具的「生成→解构→编辑」工作流提供数据基础。 |
+
+**原文摘要：** 研究纯合成分层数据能否改善图形设计分解。基于 CLD 基线构建 SynLayers 合成数据集，使用 VLM 生成文本监督和边界框。实验表明纯合成数据可超越 PrismLayersPro 真实数据集，5 万样本后趋于饱和，合成数据可平衡层数分布。
+
+**完整文章：** [articles/art/synthetic-layered-design.md](art/synthetic-layered-design.md)
+
+**相关链接：**
+- arXiv: [https://arxiv.org/abs/2605.15167](https://arxiv.org/abs/2605.15167)
+
+---
+
+#### 📄 16. 带用户约束的图像感知海报布局生成
+
+| 字段 | 内容 |
+|------|------|
+| **标题** | Image-aware Layout Generation with User Constraints for Poster Design |
+| **作者** | Chenchen Xu, Kaixin Han, Weiwei Xu |
+| **来源** | arXiv (cs.GR) |
+| **日期** | 2026-05 (更新) |
+| **论文** | [arXiv:2605.13856](https://arxiv.org/abs/2605.13856) |
+| **模块** | 🎨 视觉艺术 → 平面设计 / 海报生成 |
+| **推荐理由** | 提出支持用户自定义约束的可控布局生成框架：支持布局属性约束（包含/排除特定元素类别）和部分布局约束（利用不完整布局引导剩余元素）。高斯噪声属性表示+双重损失设计+随机掩码增强，在自动海报设计任务上达到最优性能。直接服务于 AI 辅助平面设计。 |
+
+**原文摘要：** 利用深度学习模型自动生成带用户定义约束的图像感知布局。模型以不同均值的高斯噪声表示不同布局属性，提出属性一致性损失和属性解耦损失。部分布局约束通过随机掩码增强多样性，鼓励模型学习通用潜在表示。定量定性评估达 SOTA。
+
+**完整文章：** [articles/art/image-aware-layout-poster.md](art/image-aware-layout-poster.md)
+
+**相关链接：**
+- arXiv: [https://arxiv.org/abs/2605.13856](https://arxiv.org/abs/2605.13856)
+
+---
+
 ### 待收录推荐方向
 
 > 📝 以下为尚未收录的推荐方向，欢迎通过 GitHub Issues 补充完整文章信息。
